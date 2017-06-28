@@ -154,3 +154,22 @@ There are three files given to download: train.csv, test.csv and sample_submissi
 </tr>
 </tbody>
 </table>
+
+## Conclusion
+
+After experimenting with numerous trait combinations and several algorithms I finally settled down on `AdaBoost` with thw following parameters:
+
+```
+'goal_usd'
+'campaign_len'
+'country'
+'desc_count'
+'keywords_count'
+'name_digits_any'
+```
+
+This led to a prediction score of `0.67484` on the test version of the dataset.
+
+## Ideas for improvement
+
+Seasonality is something that could be explore further. I found that the day of the week when the campaign starts or finishes play no role in the outcome, but longer-term siasonal fluctuations are likely. Could there be a downturn in funding around summer? or an upturn around the time when people get bonuses?
