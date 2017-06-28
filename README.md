@@ -157,15 +157,17 @@ There are three files given to download: train.csv, test.csv and sample_submissi
 
 ## Conclusion
 
-After experimenting with numerous trait combinations and several algorithms I finally settled down on `AdaBoost` with thw following parameters:
+After experimenting with severalseveral algorithms and selecting optimal features & parameters using `KBest` and `GridSearchCV` respectively, I settled on `AdaBoost` with thw following features:
 
 ```
-'goal_usd'
-'campaign_len'
-'country'
-'desc_count'
-'keywords_count'
-'name_digits_any'
+['campaign_len'
+ ,'keywords_count'
+ ,'keywords_len'
+ ,'name_count'
+ ,'name_capitals'
+ ,'desc_digits'
+ ,'name_digits_any'
+ ]
 ```
 
 This led to a prediction score of `0.67484` on the test version of the dataset.
