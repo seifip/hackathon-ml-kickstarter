@@ -155,7 +155,7 @@ There are three files given to download: train.csv, test.csv and sample_submissi
 </tbody>
 </table>
 
-## Conclusion
+## Solution
 
 After experimenting with several algorithms (Naive Bayes, SVM) and selecting optimal features & parameters using `KBest` and `GridSearchCV` respectively, I settled on `AdaBoost` with thw following features:
 
