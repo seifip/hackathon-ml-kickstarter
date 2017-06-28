@@ -157,7 +157,7 @@ There are three files given to download: train.csv, test.csv and sample_submissi
 
 ## Conclusion
 
-After experimenting with severalseveral algorithms and selecting optimal features & parameters using `KBest` and `GridSearchCV` respectively, I settled on `AdaBoost` with thw following features:
+After experimenting with several algorithms (Naive Bayes, SVM) and selecting optimal features & parameters using `KBest` and `GridSearchCV` respectively, I settled on `AdaBoost` with thw following features:
 
 ```
 ['campaign_len'
@@ -174,4 +174,4 @@ This led to a prediction score of `0.67484` on the test version of the dataset.
 
 ## Ideas for improvement
 
-Seasonality is something that could be explore further. I found that the day of the week when the campaign starts or finishes play no role in the outcome, but longer-term siasonal fluctuations are likely. Could there be a downturn in funding around summer? or an upturn around the time when people get bonuses?
+Seasonality is something that could be explored further. I found that the day of the week when the campaign starts or finishes play no role in the outcome, but longer-term seasonal fluctuations are likely. Could there be a downturn in funding around summer? or an upturn around the time when people get bonuses?
