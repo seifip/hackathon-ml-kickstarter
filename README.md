@@ -5,7 +5,7 @@ Brief: https://www.hackerearth.com/challenge/competitive/machine-learning-challe
 
 Dataset: https://he-s3.s3.amazonaws.com/media/hackathon/machine-learning-challenge-2/funding-successful-projects/3149def2-5-datafiles.zip
 
-## Problem statements
+## Problem statement
 
 Kickstarter is a community of more than 10 million people comprising of creative, tech enthusiasts who help in bringing creative project to life. Till now, more than $3 billion dollars have been contributed by the members in fuelling creative projects. The projects can be literally anything – a device, a game, an app, a film etc.
 
